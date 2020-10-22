@@ -5,3 +5,19 @@
 .kSandwich {
     outline: none;
 }
+
+img {
+    height: 500;
+    width: 500;
+    object-fit: contain;
+}
+
+.carousel-cell{
+      width: 66%;
+      margin-right: 10px;
+}
+.carousel-cell:before {
+    display: block;
+  }
+
+/* Icon 1 */
