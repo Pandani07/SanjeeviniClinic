@@ -14,8 +14,8 @@ router.get("/contacts", (req, res)=>{
     res.render("contacts");
 })
 
-router.get("/pricing", (req, res)=>{
-    res.render("pricing");
+router.get("/services", (req, res)=>{
+    res.render("services");
 })
 
 router.get("/gallery", (req, res)=>{
