@@ -1,3 +1,7 @@
+body{
+    background-color: #c1c1c1;
+}
+
 .kIcon {
     padding: 5px;
 }
@@ -29,7 +33,11 @@ img {
 }
 
 .service1{
-    border: 1px solid#c1c1c1;
+    border-right: 2px solid#c1c1c1;
+    padding: 10px;
+}
+
+.service2{
     padding: 10px;
 }
 .service1 > p{
@@ -44,23 +52,52 @@ img {
     text-align: center;
 } 
 
-h1{
+h3{
     font-size:16px;
     font-weight: bold;
-    background-color: #c1c1c1;
+    background-color: #727171;
     color: #ffffff;
     padding: 10px 0;
-    margin: 0 -6px;
 }
 
 .image{
-    max-width: 200px;
     margin: 15px 0 0 0;
 }
 
 .heading{
     text-align: center;
-    font-size: 25px;
-    color: #c1c1c1;
-    margin: 100px 0 50px 0;
+    font-size: 35px;
+    color: #494949;
+    margin: 50px 0 50px 0;
+}
+
+.banner{
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+.banner> .banner-img{
+    width: 100%;
+    display: block;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-link{
+    font-weight: 500;
+    color: solid black;
+}
+
+.text-class{
+    padding: 10px;
+}
+
+.jumbo{
+    padding: 30px;
+}
+
+.card-img-top{
+    height: 250px;
 }
