@@ -11,8 +11,8 @@ body{
 }
 
 img {
-    height: 500;
-    width: 500;
+    /* height: 500;
+    width: 500; */
     object-fit: contain;
 }
 
