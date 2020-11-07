@@ -8,19 +8,25 @@
     <!-- * CSS Files -->
     <link rel="stylesheet" href="/styles.css">
 
-    <!-- Importing Bootstrap, Google Fonts and FontAwesome -->
+	<!-- Importing Bootstrap, Google Fonts and FontAwesome -->
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
 </head>
 <body>
-
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: darkcyan;">
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: darkcyan;">
 		<div class="container">
 			<a class="navbar-brand" href="index">Sanjeevini Clinic</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fas fa-ellipsis-h"></i>
-			</button>
-		
+		</div>
+	</nav>
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: darkcyan;">
+		<div class="container">
+			
+				<button class="navbar-toggler" id="menuButton" style="outline: none; border: none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<!-- <i class="fas fa-ellipsis-h"></i> -->
+					<svg id="menuIcon"></svg>
+				</button>
+			
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
@@ -41,3 +47,5 @@
 		</div>
 		
 	</nav>
+
+	
