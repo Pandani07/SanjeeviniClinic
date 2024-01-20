@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{
     background-color: #c1c1c1;
 }
@@ -33,7 +34,7 @@ img {
 }
 
 .service1{
-    border-right: 2px solid#c1c1c1;
+    border-right: 2px solid #c1c1c1;
     padding: 10px;
 }
 
@@ -144,4 +145,125 @@ h3{
 
 .textshade{
     color:white;
+=======
+body{
+    background-color: #c1c1c1;
+}
+
+.kIcon {
+    padding: 5px;
+}
+
+.kSandwich {
+    outline: none;
+}
+
+img {
+    height: 500;
+    width: 500;
+    object-fit: contain;
+}
+
+.carousel-cell{
+      width: 66%;
+      margin-right: 10px;
+}
+.carousel-cell:before {
+    display: block;
+}
+
+
+.kCard {
+    filter: drop-shadow(2mm 2mm 2mm rgba(0, 0, 0, 0.3));
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffffff, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffffff, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.service1{
+    border-right: 2px solid #c1c1c1;
+    padding: 10px;
+}
+
+.service2{
+    padding: 10px;
+}
+.service1 > p{
+    font-size: 14px;
+    color: #636363;
+    max-width: 250px;
+}
+
+.Services{
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+h3{
+    font-size:16px;
+    font-weight: bold;
+    background-color: #727171;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.image{
+    margin: 15px ;
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+    color: #494949;
+    margin: 50px 0 50px 0;
+}
+
+.banner{
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+.banner> .banner-img{
+    width: 100%;
+    display: block;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-link{
+    font-weight: 500;
+    color: solid black;
+}
+
+.text-class{
+    padding: 10px;
+}
+
+.jumbo{
+    padding: 30px;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+.list-serv{
+    padding: 10px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.kIcon {
+    font-size: 33px;
+    color: #727171;
+    text-decoration: none;
+}
+
+.kIcon:hover {
+    color: black;
+    text-decoration: none;
+>>>>>>> Stashed changes
 }
